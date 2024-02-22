@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    top: 0px;
+    z-index: 1;
+	position: fixed;
+    background: white;
+	width: 100%;
+    text-align: right;
+    box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.16),
+               0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+nav .nav-content{
+    padding-left: 0;
+    margin: 10px 16px;
+
+   
+}
+nav .nav-content .left-nav{
+	font-size: 15px;
+    letter-spacing: 4px;
+    padding: 10px 16px;
+    float: left;
+    cursor: pointer;
+    transition: background 1s;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-content a{
+    display: inline-block;
+	padding: 10px 16px;
+    transition: background 1s;
+    letter-spacing: 4px;
+}
+.nav-content a:hover{
+    background: lightgrey;
+}
+.nav-content a:active{
+    background-color: grey;
+}
+
+/***************background image style**********************/
+
+.background-image{
+    background-image: url(imgs/architect.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    display: inline-block;
+    letter-spacing: 5px;
+    position: relative;
+    text-align: center !important;
+    padding: 27% 0;
+    font-size: 35px;
+    color: white;
+
+}
+.bg-text{
+    background-color: #000!important;
+    color: #fff!important;
+    padding: 8px 16px;
+    margin: 10px 0;
+    letter-spacing: 5px;
+    font-weight: 700;
+    opacity: 0.75;
+}
+/**********************main contents************************/
+.container{
+    padding: 8px 16px;  
+}
+.H2-name{
+    padding-bottom: 28px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 28px;
+    box-shadow: 0.5px 1px rgba(0, 0, 0, 0.1)
+    
+
+}
+.H2-name h2{
+    font-weight: 400;
+    font-size: 24px;
+   
+
+}
+.House-container1,
+.House-container2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-top: 34px;
+    padding: 0 10px;
+}
+.summer1,
+.summer2 {
+    position:  absolute;
+    top: 0%;
+    left: 2.8%;
+    background-color: black;
+    color: white;
+    padding: 8px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.house{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.grid1,
+.grid2 {
+    position: relative;
+    padding: 0 10px;
+}
+/****************************About sections***************************/
+
+.about-info{
+    padding: 32px 16px;
+}
+.About-name{
+    margin: 10px 0;
+    padding: 16px 0;
+    box-shadow: 0.5px 1px rgba(0, 0, 0, 0.1)
+
+}
+.About-name h2{
+    font-weight: 400;
+    font-size: 24px;
+}
+.About-pa{
+    margin: 15px 0;
+    line-height: 22.5px;
+    
+}
+.team-container{
+    padding: 10px 8px;
+    overflow: hidden;
+    
+}
+.team-section{
+    width: 25%;
+    float: left;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.team-name{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+}
+.p-name{
+    opacity: 0.60;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 22.5px;
+}
+.button{
+    position: relative;
+	margin-top: 10px;
+    margin-bottom: 13px;
+	background-color: rgb(208, 206, 206);
+	border: none;
+	color: black;
+	padding: 10px 0;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	width: 100%;
+    transition: background-color 1s;
+    cursor: pointer;
+}
+.button:hover {
+	background-color: grey;
+}
+p{
+	font-size: 100%;
+    margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+}
+input{
+    width: 100%;
+	height: auto;
+	font-size: 15px;
+    padding: 13px;
+	border: 1px solid grey;
+    margin-bottom: 20px;
+}
+.contact-button{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: background-color 1s;
+}
+.contact-button:hover{
+    opacity: 0.7;
+    color: white;
+}
+
+.contact-button:active{
+    background-color: blueviolet;
+}
+/**********************contact section*************************/
+.contact-container{
+    padding: 29px 16px;
+    
+}
+#Contact{
+    margin: 10px 0;
+    padding: 16px 0;
+    font-weight: 400;
+    font-size: 24px;
+    box-shadow: 0.5px 1px rgba(0, 0, 0, 0.1);
+    
+}
+.house-image{
+    padding: 0 16px; /* Adjust padding as needed */
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.house-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+}
+footer{
+    background-color: black;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.footer-content{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+@media only screen and (max-width: 768px) {
+    /*nav bar sections */
+    nav .nav-content {
+        text-align: center;
+        margin: 5px;
+    }
+    nav .nav-content .left-nav {
+        float: none;
+    }
+
+    /* background image */
+    .background-image {
+        padding: 60% 0;
+    }
+    .bg-text {
+        font-size: 25px;
+    }
+
+    /*  containers and grids for projects */
+    .House-container1, .House-container2 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20
+    }
+    .grid1,
+    .grid2 {
+        flex: 1 1 calc(100% - 20px);
+        margin-bottom: 10px;
+        position:relative;
+    }
+
+    /* team section */
+    .team-section {
+        width: 100%;
+    }
+
+    /* contact form inputs */
+    input {
+        width: calc(100% - 26px);
+    }
+}
+
+

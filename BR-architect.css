@@ -102,8 +102,7 @@ a{
 .summer1,
 .summer2 {
     position:  absolute;
-    top: 0%;
-    left: 2.8%;
+    margin: 0;
     background-color: black;
     color: white;
     padding: 8px 10px;
